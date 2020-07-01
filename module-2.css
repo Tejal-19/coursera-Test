@@ -20,6 +20,8 @@ section {
   text-align: right;
   margin-left: 15px;
   background-color: gray;
+ margin: auto;
+  border : 15px;
 }
 div {
   margin-left: 205px;

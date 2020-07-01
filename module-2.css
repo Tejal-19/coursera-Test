@@ -1,4 +1,4 @@
- *{
+*{
   box-sizing: border-box;
 }
 h1 {
@@ -21,7 +21,7 @@ section {
   margin-left: 15px;
   background-color: gray;
   margin: 5px;
-  
+  border : 15px;
 }
 div {
   margin-left: 205px;

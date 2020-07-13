@@ -19,19 +19,37 @@
   <header>
      <nav class="navbar navbar-light  nav-css">
       <div class="container">
-     <span class="navbar-brand mb-0 h1">Food, LLC</span>
-     <button type="button"  class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
-            <span class="navbar-toggler-icon"></span>
+      <div class="navbar-header">
+       <div class="navbar-brand">
+            <a href="index.html"><h1>FOOD,LLC</h1></a>
+          </div>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsable-nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
           </button>
-          <div class="collapse navbar-collapse" id="myMenu">
-                <ul class="navbar-nav bg-light text-center">
-                  <li class="nav-item"><a class="nav-link" href="#menu1">Chicken</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#menu2">Beef</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#menu3">Sushi</a></li>
-                </ul>
-              </div>
+        </div>
+        <div id="collapsable-nav" class="navbar-collapse collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="active visible-xs text-center nav-item">
+              <a href="#chicken">
+                <hr class="visible-xs">Chicken</a>
+            </li>
+            <li class="active visible-xs text-center nav-item">
+              <a href="#beef">
+                <hr class="visible-xs">Beef</a>
+            </li>
+            <li class= "active visible xs text-center nav-item">
+              <a href="#sushi">
+               <hr class="visible-xs">Sushi</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div>
+       
        </div>
-</nav>
+    </nav>
+
    
 <p class="text-center">OUR MENU</p>
   </header>
